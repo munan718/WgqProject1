@@ -95,17 +95,27 @@ pom.xml
 </project>
 
 
-wgqproject.demo   -------项目目录
-   config         -------项目配置
-   controller     --------控制器
-   dao            --------放置数据库查询mapper
-   entity         --------实体类
-   service        --------放置接口
-   service.impl   --------接口实现方法
-   util           --------工具类
-   DemoApplication        启动类
+wgqproject.demo   -------项目目录  
+
+   config         -------项目配置  
    
-项目运行环境  JDK8 
+   controller     --------控制器  
+   
+   dao            --------放置数据库查询mapper  
+   
+   entity         --------实体类  
+   
+   service        --------放置接口  
+   
+   service.impl   --------接口实现方法  
+   
+   util           --------工具类  
+
+   DemoApplication        启动类  
+   
+   
+项目运行环境  JDK8  
+
 数据库        Mysql
 
 swagger 访问 http://localhost:8888/swagger-ui.html#
