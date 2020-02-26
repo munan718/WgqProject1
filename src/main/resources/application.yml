@@ -1,0 +1,17 @@
+# ˝æ›‘¥≈‰÷√
+spring:
+  application:
+    name: beetlsql-test
+  datasource:
+    name: blog
+    url: jdbc:mysql://39.106.74.125:3306/wgq?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: wgq
+    password: wgq
+    driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 8888
+beetlsql:
+  basePackage: wgqproject.demo.dao
+  dbStyle: org.beetl.sql.core.db.MySqlStyle
+  sqlRoot: /sql
+  debug: 1
